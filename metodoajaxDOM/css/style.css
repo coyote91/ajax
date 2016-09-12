@@ -1,0 +1,302 @@
+*
+{
+   margin:0px;
+   padding:0px;
+   
+}
+
+body{
+ 
+
+
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*******
+
+LOGO
+
+*********/
+
+#contenedorlogo
+{
+  width:1380px;;
+  height:auto;
+  position: relative;
+  margin-bottom: 5px;
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:black;
+  
+}
+
+#titulopricebook{
+
+  /*font-family: 'Fontdiner Swanky', cursive;
+font-size: x-large;*/
+ /*background-image: url("../logodos.png");
+ background-repeat: no-repeat;
+ background-size: 20%;
+background-position: center;*/
+ 
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 5px;
+  position: relative;
+ font-size: 40px;
+    color: #3e3e3e;
+    /*font-family: helvetica, arial, sans-serif;*/
+    font-family: 'Monoton';
+
+
+}
+
+/**  
+ font-family: 'Codystar'; --->
+ font-family: 'Julee'; -->
+ font-family: 'Ribeye Marrow'; 
+ font-family: 'Nosifer';          -->
+ font-family: 'Mystery Quest';
+ font-family: 'Londrina Sketch';  -->
+font-family: 'Kranky';
+font-family: 'Zeyada';  -->
+font-family: 'Fontdiner Swanky';  --->
+font-family: 'Monoton';  -->
+
+
+**/
+
+#pr{
+
+color:#F7D358; 
+text-decoration:underline; 
+
+}
+
+#signodolar{
+
+color:#FF6701; 
+text-decoration:underline;
+
+
+}
+
+#ce{
+ 
+ color:#F7D358;
+ text-decoration:underline; 
+
+}
+
+#book{
+
+ text-decoration:underline; 
+  
+}
+
+/***** END - LOGO ******/
+
+
+#contenedorglobal{
+
+width:1380px;
+min-height: 580px;
+height:auto;
+background-color: orange ;
+position: relative;
+margin:0px auto;
+border:;
+
+}
+
+#contenedorglobalinfo{
+
+width:auto;
+min-height: 240px;
+height:auto;
+background-color: cadetblue ;
+border:;
+position:relative;
+margin:0px auto;
+
+
+}
+
+#barra{
+
+width:auto;
+height:74px;
+ position:relative;
+top:-5px;
+ background:white;
+  opacity: 0.5;
+  filter:  alpha(opacity=50);
+ /*rgba(255, 255, 255, 0.95)*/
+   border-bottom: 1px solid black;
+  border-bottom-style: dashed;
+z-index: 99999;
+
+}
+
+
+
+
+/*** FORMULARIO BUSQUEDA ****/
+
+#contenedorbusqueda{
+   
+   width: 600px;
+   min-height: 200px;
+   height: auto;
+   /*border: solid 1px #ccc;*/
+   position:relative;
+   /*top:200px;*/
+   margin:0px auto;
+   background-color:yellow;
+
+}
+
+#contenedorformdos{
+width:540px;
+height:auto;
+background-color:red;
+position: relative;
+margin:0px auto 5px;
+display: none;
+
+}
+
+
+#titulobusqueda{
+
+ color: #424242;
+	text-align: center;
+font-family: 'Monoton';
+}
+
+#forminput{
+	width: 540px;
+	height: auto;
+	position: relative;
+ margin: 50px auto;
+ background:;
+}
+
+
+
+
+.input{
+ 
+ width:200px;
+ height: 44px;
+ padding: 6px;
+ border: 1px solid #ccc;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ color: #555;
+ border-radius: 5px;
+ text-align: center;
+ margin-left: 10px;
+
+}
+
+
+.env{
+width:84px;
+height: 44px;
+padding: 6px;
+-webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+color: #fff;
+background-color: #4694e1;
+border-color: #2e6da4;
+border-radius: 5px;
+text-align: center;
+display: inline-block;
+border: 1px solid transparent;
+    border-bottom: 2px solid #2c78c3;
+     margin-left: 10px;
+}
+
+.env:hover{
+
+	background: #22A7F0;
+}
+
+/**********
+
+PANEL IZQUIERDO Y CONTENEDOR DERECHO 
+
+
+*************/
+
+#contformbusqueda{
+
+width:999px;
+height:50px;
+background-color:;
+position: relative;
+margin: 5px auto;
+
+
+}
+
+
+
+#contenedorizquierdo{
+
+width:300px;
+min-height:400px;
+height:auto;
+background-color:pink;
+position: relative;
+float:left;
+
+}
+
+#contenedorderecho{
+
+width:auto;
+min-height:400px;
+height:auto;
+border:1px solid red;
+background-color:;
+position: relative;
+margin-left:320px;
+
+}
+
+#info{
+
+width:300px;
+height:300px;
+background-color:;
+border:1px solid pink;
+position: relative;
+float:left;
+margin-left:10px;
+
+
+}
+
+.fotoproducto{
+
+width:100px;
+height:100px;
+
+}

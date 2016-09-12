@@ -1,0 +1,20 @@
+#contenedor{
+
+width:700px;
+height:500px;
+background: orange;
+position: relative;
+margin:0px auto;
+
+}
+
+#info{
+
+ width:300px;
+ height:200px;
+background-color:pink;
+position: relative;
+margin-left:6px;
+float:left;
+
+}
